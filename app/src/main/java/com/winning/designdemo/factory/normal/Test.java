@@ -11,5 +11,7 @@ public class Test {
         GDComputerFactory computerFactory = new GDComputerFactory();
         HpComputer computer = computerFactory.createComputer(HpComputer.class);
         computer.start();
+
+        Class clazz = String.class;
     }
 }
